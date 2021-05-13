@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <title>Dev Alex Correa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background: black;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        color: white;
+        font-family: Arial;
+        text-align: Center;
+        font-size: 60px;
+      }
+      h2 {
+        color: white;
+        font-family: Arial;
+        text-align: Center;
+        font-size: 30px;
+      }
+      #apresentacao {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: url(background.gif);
+        background-size: cover;
+        text-align: center;
+      }
+      #habilidades {
+        display: flex;
+        color: white;
+        text-align: center;
+      }
+      #contato {
+        background: white;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        text-align: center;
+        font-family: Arial;
+      }
+      #frontend {
+        background: #151515;
+        width: 50%;
+        padding-bottom: 50px;
+      }
+      #backend {
+        background: #111111;
+        width: 50%;
+        padding-bottom: 50px;
+      }
+      h3 {
+        font-family: arial;
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 20px;
+        color: #4a566e;
+      }
+      a {
+        color: white;
+        background: green;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+      }
+      @media (max-width: 600px) {
+        #habilidades {
+          flex-direction: column;
+        }
+        #frontend {
+          width: 100%;
+        }
+        #backend {
+          width: 100%;
+        }
+      }
+      img {
+        border-radius: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="apresentacao">
+      <h1>Alex Correa da Silva</h1>
+      <h2>Desenvolvedor Web</h2>
+      <img src="AlexCorrea.jpeg" />
+    </div>
+    <div id="habilidades">
+      <div id="frontend">
+        <h3>front-end</h3>
+        <img src="css.png" />
+        <img src="js.png" />
+        <img src="react.png" />
+      </div>
+      <div id="backend">
+        <h3>back-end</h3>
+        <img src="node.png" />
+        <img src="sql.png" />
+        <img src="rest.png" />
+      </div>
+    </div>
+    <div id="contato">
+      <h4>
+        Precisa de um site ou app?<br />
+        Me manda uma mensagem! :)<br />
+      </h4>
+      <a href="https://wa.me/5549988540557">Mandar um WhatsApp</a>
+      <a href="Curriculo_Alex Correa da Silva.pdf">Curiculo</a>
+    </div>
+  </body>
+</html>
